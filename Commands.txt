@@ -1,10 +1,11 @@
+GIT COMMAND SHEET
+==================
 
-
-SETTING GLOBAL VARIABLES:
+SETTING GLOBAL VARIABLES
 git config --global user.name=Aryak
 git config --global user.email=mailmearyak@gmail.com
 
-INITIALIZING EMPTY REPOSITORY:
+INITIALIZING EMPTY REPOSITORY
 git init # gives master branch
 git init -b "main"
 
@@ -12,4 +13,9 @@ ADDING TO STAGING AREA
 git add .
 git add Commands.txt
 
+COMMITING
+git commit -m "Initial commit"
+
+SKIPPING THE STAGING AREA
+git commit -am "Initial commit"
 
