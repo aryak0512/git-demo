@@ -21,3 +21,6 @@ git commit -am "Initial commit"
 
 DIFFERENCE
 git diff
+
+REMOVING FILE FROM STAGING AREA
+git rm --cached "credentials.txt"
