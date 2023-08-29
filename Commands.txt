@@ -24,3 +24,12 @@ git diff
 
 REMOVING FILE FROM STAGING AREA
 git rm --cached "credentials.txt"
+
+CREATING SSH KEY
+ssh-keygen -o
+
+Note: SSH is better than HTTPS since HTTPS needs a login every time, SSH needs device authentication only once.
+
+ADDING ORIGIN [via SSH]
+
+git remote add origin git@github.com:aryak0512/git-demo.git
