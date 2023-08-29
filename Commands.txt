@@ -19,3 +19,5 @@ git commit -m "Initial commit"
 SKIPPING THE STAGING AREA
 git commit -am "Initial commit"
 
+DIFFERENCE
+git diff
