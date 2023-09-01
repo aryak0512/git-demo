@@ -53,3 +53,6 @@ git checkout -b feature1
 
 SWITCH A BRANCH
 git checkout feature1
+
+LIST BRANCHES
+git branch
