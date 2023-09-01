@@ -1,0 +1,12 @@
+Big Data
+
+Velocity
+Volume
+Variety
+
+
+Batch processing : Hadoop
+Real time processing : Storm
+
+
+Terms in Storm:
