@@ -47,3 +47,9 @@ git tag
 
 PUSHING THE TAGS (tags need to be pushed explicitly)
 git push origin v1.0
+
+CREATE A BRANCH
+git checkout -b feature1
+
+SWITCH A BRANCH
+git checkout feature1
