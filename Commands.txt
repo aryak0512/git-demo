@@ -58,3 +58,12 @@ git switch feature1
 LIST BRANCHES
 git branch [will only list local branches]
 git branch -all [will list local as well as remote branches]
+
+DELETING A BRANCH
+git branch -d feature2
+
+PULLING A BRANCH
+git pull origin main
+
+MERGING A BRANCH
+git merge main
