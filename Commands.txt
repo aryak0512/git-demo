@@ -31,5 +31,39 @@ ssh-keygen -o
 Note: SSH is better than HTTPS since HTTPS needs a login every time, SSH needs device authentication only once.
 
 ADDING ORIGIN [via SSH]
-
 git remote add origin git@github.com:aryak0512/git-demo.git
+
+UPDATING ORIGIN
+git remote set-url origin git@github.com:aryak0512/git-demo.git
+
+VIEWING THE REMOTE ORIGIN
+git remote -v
+
+ADDING TAGS (Annotated)
+git tag -a v1.0 -m "Release 1.0 version"
+
+VIEW ALL TAGS
+git tag
+
+PUSHING THE TAGS (tags need to be pushed explicitly)
+git push origin v1.0
+
+CREATE A BRANCH
+git checkout -b feature1
+
+SWITCH A BRANCH
+git checkout feature1
+git switch feature1
+
+LIST BRANCHES
+git branch [will only list local branches]
+git branch -all [will list local as well as remote branches]
+
+DELETING A BRANCH
+git branch -d feature2
+
+PULLING A BRANCH
+git pull origin main
+
+MERGING A BRANCH
+git merge main

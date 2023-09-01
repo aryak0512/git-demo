@@ -1,0 +1,13 @@
+
+
+K = 2 raise to 10
+M = 2 raise to 20
+G = 2 raise to 30
+T = 2 raise to 40
+
+Any IPv4 address is a 32 bit number.
+Class A starts with 0
+Class B starts with 10
+Class C starts with 110
+Class D starts with 1110
+Class E starts with 1111
