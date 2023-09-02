@@ -48,6 +48,9 @@ git tag
 PUSHING THE TAGS (tags need to be pushed explicitly)
 git push origin v1.0
 
+DELETNG A TAG
+git tag -d v1.0
+
 CREATE A BRANCH
 git checkout -b feature1
 
