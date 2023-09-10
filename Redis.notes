@@ -1,0 +1,12 @@
+Key = printable ASCII
+value = strings, sorted sets, hashes, list, sets
+
+The value of string in Redis can be 512 MB max
+
+Basic commands:
+1. Show all keys - keys *
+2. Set a key value entry - set name aryak
+3. Retrieve a value - get name
+4. Remove a key - del name2
+5. Overwrite a key - set name aryak2
+6. Delete all keys - flushall
